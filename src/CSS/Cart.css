@@ -1,0 +1,116 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.cart-div{
+    /* height: 100vh; */
+    width: 100%;
+    padding: 15px;
+    border: 2px solid red;
+    display: flex;
+
+}
+.cart-div>div{
+    margin: 10px;
+    border: 1px solid rgb(114, 117, 122);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.prod-details-section{
+   width: 65%;
+   height: 80vh;
+   overflow: auto;
+
+}
+.checkout-section{
+   width: 35%;
+   padding: 25px;
+   display: flex;
+   justify-content: center;
+   height: 42vh;
+}
+.chekcout{
+    border: 3px solid rgb(54, 201, 17);
+    width:70%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.chekcout div{
+    margin: 20px 2px;
+   
+}
+.chekcout>div:nth-child(3){
+  
+    margin-top: 68px;
+    padding: 15px;
+}
+.checkout-btn{
+    padding: 15px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(27, 65, 170);
+    color: rgb(255, 255, 23);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+.cards{
+    padding: 25px;
+}
+table, td, th {  
+    border: 2px solid rgb(124, 7, 7);
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  th {
+    padding: 15px;
+  }
+  td{
+    padding: 8px;
+  }
+  #cart-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+  .incr{
+    /* padding: 5px; */
+    height: 45px;
+    width: 45px;
+    font-size: 28px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    margin: 5px;
+
+  }
+  .decr{
+   /* padding: 5px 8px; */
+   height: 45px;
+   width: 45px;
+   font-size: 28px;
+   background-color: brown;
+   border-radius: 50%;
+   margin: 5px;
+   color: white;
+   font-weight: bold;
+  }
+
+  @media (max-width:910px) {
+    .cart-div{
+        display: flex;
+        flex-direction: column-reverse;
+   
+    }
+    .cart-div>div{
+        width: 100%;
+    }
+  }

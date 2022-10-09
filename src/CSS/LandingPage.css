@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  height: auto;
+  width: 100%;
+}
+.carousel-div {
+  /* height: 50vh; */
+  background-color: rgb(192, 189, 182);
+}
+.carousel-img {
+  width: 100%;
+
+  height: 100%;
+}
+.carousel-div div {
+  height: 60vh;
+}
+.slick-arrow.slick-prev {
+  color: gray;
+  z-index: 1;
+  margin-left: 56px;
+}
+.slick-arrow.slick-next {
+  color: gray;
+  z-index: 1;
+  margin-right: 100px;
+}
+.slick-arrow.slick-prev:before,
+.slick-arrow.slick-next:before {
+  padding: 10px;
+  /* background-color: white; */
+  font-size: 38px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: rebeccapurple;
+}
+.special-header {
+  width: 100%;
+  /* height: 20vh; */
+  text-align: center;
+  /* padding-top: 38px;
+     padding-bottom: 10px; */
+  padding: 30px auto;
+}
+.special-header h1 {
+  font-size: 3vw;
+  color: rgb(161, 28, 49);
+  margin: 5px auto;
+}
+.middle-section {
+  background-image: url("https://www.chhappanbhog.com/wp-content/themes/biagiotti/assets2/img/bkg.jpg");
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.category-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  width: 60%;
+  margin: auto;
+}
+.category-section > div {
+  height: 350px;
+  width: 500px;
+  margin: 10px;
+  background-color: blueviolet;
+  border-radius: 15px;
+}
+.category-section div > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(213, 255, 59);
+  font-weight: bold;
+  font-size: 29px;
+  text-shadow: 0px 12px 8px rgba(0, 0, 0, 0.63);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.collection-section {
+  width: 100%;
+  padding: 28px 20px;
+
+  text-align: center;
+}
+.collection-header {
+  width: 60%;
+  margin: auto;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+.collection-header h1 {
+  margin: 15px;
+}
+.exp {
+  font-size: 3vw;
+  color: rgb(161, 28, 49);
+}
+.bestseller-section {
+  background-image: url("https://www.chhappanbhog.com/wp-content/themes/biagiotti/assets2/img/blue-bg.jpg");
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.bestseller-header {
+  width: 60%;
+  margin: auto;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+.best-seller-carousel-div{
+    width: 100%;
+    height: 25vh;
+    /* padding: 10px 10px; */
+    /* border: 1px solid red; */
+}
+.carousel-div2 div {
+    height: 25vh;
+    margin: 5px;
+  }
+.exp2 {
+  font-size: 3vw;
+  color: white;
+}
+.Footer-section {
+  background-image: url("https://www.chhappanbhog.com/wp-content/themes/biagiotti/assets2/img/footer_bg.jpg");
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 50vh; */
+  height: auto;
+}
+.Footer {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  color: white;
+}
+
+.Footer > div {
+  text-align: justify;
+
+  margin: 10px;
+  padding-left: 18px;
+  width: 300px;
+  height: 390px;
+}
+.Footer > div:not(.Footer > div:nth-child(1)) {
+  border-left: 3px solid goldenrod;
+}
+.Footer > div > div:nth-child(2) {
+  margin-top: 45px;
+}
+.Footer > div > div:nth-child(2) > p {
+  margin: 18px auto;
+  font-size: 22px;
+}
+.Footer > div:nth-child(4) > div:nth-child(2) > p:nth-child(5) > span {
+  margin: 6px;
+}
+.last-footer {
+  background-image: url("https://www.chhappanbhog.com/wp-content/themes/biagiotti/assets2/img/top-ft.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 12vh;
+  padding-top: 45px;
+}
+.privacy{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.privacy span{
+    margin: 6px;
+    font-size: 20px;
+    color: rgb(253, 220, 30);
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.signup-div{
+    /* height: 60vh; */
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#name{
+    margin: 15px 5px;
+    font-size: 18px;
+
+ 
+}
+
+.signup-form{
+    background-color: rgb(198, 251, 255);
+    width: 900px;
+    border-radius: 15px;
+    border: 1px solid rgb(31, 4, 4);
+    padding: 15px 85px;
+ display: flex;
+ flex-direction: column;
+ color: rgb(1, 30, 158);
+ font-size: 23px;
+ font-weight: bold;
+}
+.btn-div{
+    margin-top: 25px;
+    text-align: center;
+}

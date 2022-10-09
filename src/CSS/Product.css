@@ -1,0 +1,178 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;margin: 0;
+}
+.main-product-div{
+    background-image: url("https://img.freepik.com/free-vector/copy-space-wavy-white-background-layers_23-2148845469.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.product-header{
+    text-align: center;
+    padding: 20px 0px;
+}
+.location{
+    padding: 0px 15px;
+    font-size: 20px;
+}
+.product-div{
+    /* height: 100vh; */
+    width: 100%;
+   /* border: 1px solid red; */
+   display: flex;
+}
+.product-div div{
+    /* height: 90vh; */
+   /* border: 1px solid greenyellow; */
+    margin: 0px 5px;
+    margin-top: 12px;
+}
+.filter-div{
+   width: 25%;
+   padding: 10px 15px;
+   text-align: justify;
+}
+.product-section{
+   width:75%;
+ border: 2px solid rgb(143, 43, 43);
+ border-radius: 15px;
+}
+.inp-div{
+    width: 80%;
+    margin: auto;
+    padding: 5px 5px;
+    text-align: center;
+ 
+}
+#search-inp{
+   width: 80%;
+   padding: 18px 2px;
+   border: none;
+   outline: none;
+   border: 2px solid goldenrod;
+   border-radius: 10px;
+   padding-left: 25px;
+   font-size: 25px;
+   color: purple;
+   font-weight: bold;
+}
+#search{
+  border: 1px solid goldenrod;
+  padding: 11px 10px;
+  font-size: 22px;
+  border-radius: 10px;
+  background-color:rgb(232, 128, 149);
+}
+.card-div{
+    /* padding: 5px 5px; */
+     overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+   max-height: 100vh;    
+  
+}
+.not-found{
+    font-size: 40px;
+    color: red;
+}
+
+.card-div>div{
+  
+    width: 500px;
+    border: 2px solid purple;
+    /* margin: 20px; */
+    border-radius: 10px;
+    background-color: rgb(155, 196, 167);
+
+}
+
+.card-img{
+    height: 30vh;
+   border-radius: 15px;
+}
+.card-img > img{
+    border-radius: 15px;
+}
+.card-detail{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 18px;
+}
+.card-detail>div{
+    margin: 0px 5px;
+}
+.add-to-cart-div{
+    display: flex;
+    justify-content: center;
+}
+.prod-name{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.add-cart-btn{
+    padding: 10px 20px;
+    background-color: crimson;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.categ-div div{
+    background-color: rgb(18, 170, 69);
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.categ-div div>button{
+
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none; 
+    padding: 20px 10px;
+    background-color:rgb(18, 170, 69) ;
+  
+}
+.sort-by-price-div{
+    margin-top: 10px;
+}
+.sort-by-price-div>div{
+    background-color: rgb(33, 55, 92);
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.sort-by-price-div div>button{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none; 
+    padding: 20px 10px;
+    background-color:rgb(33, 55, 92) ;
+}
+#off-price{
+    font-size: 22px;
+    font-weight: bold;
+}
+#price{
+    font-size: 18px;
+}
